@@ -1,0 +1,49 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    min-width: 50px;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 1px; 
+}
+
+/* .buttons {
+    height: 60px;
+    width: auto;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 1px;
+
+
+} */
+
+.btn {
+    width: 8em;
+    /* border-radius: 0; */
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-items: stretch;
+    float: left;
+    margin: 10px;
+
+}
+
+.die {
+    height: 100px;
+    width: 100px;
+    background-color: whitesmoke;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 10px;
+    font-size: 60px;
+}
